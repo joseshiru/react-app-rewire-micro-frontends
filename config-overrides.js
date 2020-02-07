@@ -5,9 +5,5 @@ module.exports = (config, env) => {
       default: false,
     },
   };
-  config.externals = {
-    react: 'React',
-    'react-dom': 'ReactDOM'
-  }
   return config;
 };
