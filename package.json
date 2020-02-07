@@ -1,10 +1,20 @@
 {
-  "name": "react-app-rewire-micro-frontends",
+  "name": "react-app-rewire-single-bundle",
   "version": "0.0.1",
   "description": "Modifies react-scripts 2.0 for micro frontend development",
   "main": "config-overrides.js",
-  "repository": "git@github.com:camjackson/react-app-rewire-micro-frontends.git",
-  "author": "Cam Jackson",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/joseshiru/react-app-rewire-micro-frontends.git"
+  },
+  "author": "",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/joseshiru/react-app-rewire-micro-frontends/issues"
+  },
+  "homepage": "https://github.com/joseshiru/react-app-rewire-micro-frontends#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
